@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!-- 
+    SITE 1101 Principles of Information Systems Fall 2022 
+    (c)2022 by Name Surname 
+    Submitted in partial fulfillment of the requirements of the course.
+-->
+<html>
+    <head>
+        <title>Homework 3: How websites work?</title> 
+        <link rel="stylesheet" href="#HomeWork3.html">    
+        <link rel="stylesheet" href="style.css">  
+        <link rel="stylesheet" href="javaPart.js">
+          <style>
+            body {
+                cursor: url('media/minecraft-png-axe.jpg'), auto;
+            }
+          </style>
+    </head>
+    <body>
+        <h1 class="login-heading"> Login to start your journey</h1>
+
+        <div class="login-back" style="border-radius: 5px;">
+        <form action="HomeWork3.html" method="GET"> 
+            <label for="username" id="username"> Add your Username here:</label>
+            <input type="text" name="username" id="username" required minlength="5" required maxlength="15" pattern="[a-zA-Z0-9]+"><br><br>
+            <label for="user-password" id="user-password"> Add your Password here:</label>
+            <input type="password" name="user-password" id="user-password" required minlength="5" required maxlength="15"><br><br>
+            <section id="submit" class="submit" ><input type="submit" value="Submit" >
+            </section>
+        </form>
+        </div>
+        
+    </body>
+</html>
+
+

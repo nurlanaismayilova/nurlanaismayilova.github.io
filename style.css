@@ -1,0 +1,32 @@
+h1{
+    color: #000;
+    text-align: center;
+}
+body{
+    background-image: url(media/adaB.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    cursor: url('media/minecraft-png-axe.jpg'), auto;
+}
+#username {
+    color: #060303;
+    text-align: center;
+}
+#user-password{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+#submit{
+    color: #526D82;
+}
+
+.login-back{
+    margin: 120px auto;
+    width: 400px;
+    border: #000000;
+    border-style:double;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #000000;
+}
